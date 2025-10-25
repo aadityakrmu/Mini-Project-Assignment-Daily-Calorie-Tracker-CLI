@@ -1,0 +1,34 @@
+Daily Calorie Tracker CLI
+Project: Daily Calorie Tracker CLI
+Author: AADITYA KUMAR Date: 2025-10-23
+Language: Python
+
+📖 Project Overview
+A lightweight command-line tool to log meals, calculate total and average calories, compare intake against a user-defined daily limit, and optionally save a session log to a text file. Designed for students who want a quick, reproducible calorie-tracking utility.
+
+✨ Features
+Interactive prompts for meal names and calories
+Stores meal names and calorie values in lists
+Calculates total and average calories
+Compares total intake to a daily limit and displays a warning when exceeded
+Nicely formatted CLI summary report
+Optional session log saved to calorie_log.txt with timestamp
+⚙️ Requirements
+Python 3.8 or newer
+No external Python packages required
+🚀 Installation
+Clone the repository:
+git clone https://github.com/yash-irongod/daily_calorie_tracker.git
+cd daily_calorie_tracker
+Ensure tracker.py is inside the project folder.
+▶️ Usage
+Run the script from the project root:(bash) python tracker.py
+
+📑 Files to Review tracker.py — main Python script implementing the CLI
+
+calorie_log.txt — example session log saved at project root
+
+samples/ — folder containing sample run transcripts: sample_run_1.txt
+
+sample_run_2.txt
+
